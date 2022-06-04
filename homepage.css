@@ -1,0 +1,14 @@
+#info h2{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: larger;
+}
+#info p{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: small;
+}
+
+header{
+    width:auto;
+    height: 80px;
+    background-color: darkgrey;
+}
