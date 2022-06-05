@@ -1,0 +1,55 @@
+*,*::before, *::after{
+    box-sizing: border-box;
+}
+/*#menu-options a::after{
+    content: "      |";
+}*/
+#container{
+    padding: 0;
+    margin: 0;
+    background-color:rgb(128, 186, 236);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.main-logo{
+    display: flex;
+    align-items:center;
+    font-size:xx-large;
+    max-width: 100%;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+
+/*#info h2{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: larger;
+}
+#info p{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: small;
+}*/
+
+
+#menubar{
+    display: flex;
+    align-items:center;
+    width:auto;
+    height: 80px;
+    background-color: rgb(108, 106, 106);
+    color: white;
+    text-decoration: none;
+}
+#menubar ul{
+    display: flex;
+    margin-left: auto;
+    margin-right: 2rem
+}
+#menu-options *{
+    color: inherit;
+    margin-right: 1rem;
+    text-decoration: inherit;
+}
+.brand-logo-name{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
