@@ -1,12 +1,17 @@
 *,*::before, *::after{
     box-sizing: border-box;
 }
+.product_array h2::before{
+    content: "\a";
+    white-space: pre;
+}
 
 #container{
     padding: 0;
     margin: 0;
-    background-color:rgb(108, 106, 106);
+    background-color:rgb(231, 223, 223);
     font-family: 'Kdam Thmor Pro', sans-serif;
+    margin-bottom: 4rem;
 }
 .main-logo{
     display: flex;
@@ -24,14 +29,33 @@
     width:max-content;
     margin-left:auto;
     margin-right:auto;
+    margin-top:3rem;
 }
+#main-body-products{
+}
+
+#products{
+    align-items: center;
+    display: flex;
+    width:max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+.product_array{
+    color:inherit;
+    margin-right:3rem;
+
+}
+
 
 #menubar{
     display: flex;
     align-items:center;
     width:auto;
     height: 80px;
-    background-color: rgb(77, 98, 116);
+    background-color: rgb(42, 152, 249);
     color: white;
     text-decoration: none;
 }
