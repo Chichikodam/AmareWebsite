@@ -5,7 +5,7 @@
 #container{
     padding: 0;
     margin: 0;
-    background-color:rgb(108, 106, 106);
+    background-color:''rgb(108, 106, 106);
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
 .main-logo{
@@ -20,23 +20,17 @@
     font-size:large
     
 }
-#banner_photo{
-    width:max-content;
-    margin-left:auto;
-    margin-right:auto;
-}
 
 #menubar{
     display: flex;
     align-items:center;
     width:auto;
     height: 80px;
-    background-color: rgb(77, 98, 116);
+    background-color: rgb(128, 186, 236);
     color: white;
     text-decoration: none;
 }
 #menubar ul{
-    align-items: center;
     display: flex;
     margin-left: auto;
     margin-right: 2rem
